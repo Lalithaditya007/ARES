@@ -1,0 +1,1 @@
+"""ARES backend application package."""
