@@ -44,6 +44,7 @@ Do not commit `.env`. It is ignored by Git. Never place real passwords, API keys
 ## Backend Setup
 
 The Python virtual environment must be created inside `backend/.venv`. It is separate from the frontend's Node.js dependencies.
+The root `.venv` is not used by this project; use `backend/.venv` for all backend commands.
 
 ### Windows PowerShell
 
