@@ -6,7 +6,7 @@ ARES is a research-oriented platform for executing software-engineering tasks th
 
 ## Current scope
 
-The repository is currently in **Phase 2 cleanup and validation**. This phase establishes the development skeleton and verifies the backend, frontend, testing, configuration, and Docker development environment.
+The repository is currently in **Phase 3 Docker sandbox and execution-manager implementation**. Phase 3 adds the foundational, local Docker execution infrastructure while preserving the Phase 2 backend and frontend skeleton.
 
 The current implementation includes:
 
@@ -15,6 +15,10 @@ The current implementation includes:
 - A basic pytest health check
 - Development configuration and setup documentation
 - Docker Engine verification
+- A typed execution contract and execution manager
+- Controlled local workspaces and allowlisted Python/Node runtime images
+- Docker SDK execution with bounded output, timeouts, resource limits, and cleanup
+- A restricted multi-file project runner for registered workspaces
 
 The agents, execution sandbox, Recovery Engine, AEKE, orchestration workflows, and other domain features are planned for future implementation phases. They are not yet implemented.
 
@@ -79,4 +83,8 @@ docker info
 docker run --rm hello-world
 ```
 
-These commands verify Docker availability only. The ARES execution sandbox is future implementation work.
+See the [ARES master handover](docs/ARES_MASTER_HANDOVER.md) first for the
+authoritative project status and file inventory. The focused [Phase 3
+execution-manager documentation](docs/phase3-execution-manager/README.md)
+covers the implementation guide, runbook, decisions, test report, observed
+results, and current limitations.
