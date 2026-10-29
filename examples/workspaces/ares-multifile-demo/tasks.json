@@ -1,0 +1,6 @@
+[
+  {"id": "T-301", "title": "Prepare workspace", "status": "completed"},
+  {"id": "T-302", "title": "Run Python program", "status": "completed"},
+  {"id": "T-303", "title": "Run Node program", "status": "completed"},
+  {"id": "T-304", "title": "Review execution evidence", "status": "pending"}
+]

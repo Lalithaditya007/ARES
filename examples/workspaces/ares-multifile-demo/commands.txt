@@ -1,0 +1,3 @@
+# ARES Phase 3 supports only these exact commands:
+python main.py
+node app.js
