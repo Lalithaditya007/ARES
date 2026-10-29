@@ -540,10 +540,11 @@ and merge. It must never be inferred from intent.
 |---|---|
 | Implementation commit | `e39e7f7` — `feat: implement Phase 3 execution manager` |
 | Documentation commit | `c40d1dd` — `docs: add comprehensive ARES Phase 3 handover` |
-| Documentation commit message | `docs: add comprehensive ARES Phase 3 handover` |
-| Pushed | Pending; do not claim without command output |
-| Merge into `main` | Pending; do not claim without command output |
-| Final status | Pending release operation |
+| Release-record commit | Pending final documentation update |
+| Feature branch pushed | Confirmed: `origin/feature/phase-3-execution-manager` |
+| Merge into `main` | Confirmed fast-forward: `12ce742` → `f5717cc` |
+| Main branch pushed | Confirmed: `origin/main` at `f5717cc` |
+| Final status | Pending final documentation update |
 
 ### Start Here for the next conversation
 
